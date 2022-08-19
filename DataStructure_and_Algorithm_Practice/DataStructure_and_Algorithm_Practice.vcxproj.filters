@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Solution">
+      <UniqueIdentifier>{5ddf802c-4769-493c-a5cf-e2d77af46b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Practice">
+      <UniqueIdentifier>{a85a7ca1-3641-4a81-956c-c9edc8db2e5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MergeSort_Sol.h">
+      <Filter>头文件\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort_Pra.h">
+      <Filter>头文件\Practice</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort_Sol.h">
+      <Filter>头文件\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort_Pra.h">
+      <Filter>头文件\Practice</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxHeap_Sol.h">
+      <Filter>头文件\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxHeap_Pra.h">
+      <Filter>头文件\Practice</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
