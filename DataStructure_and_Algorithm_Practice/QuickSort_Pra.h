@@ -13,29 +13,29 @@ namespace Practice {
 	int partition(T array[], int low, int hi) {
 		// TODO: Partition function to return pivot index
 
-		T val = array[low];
-		int n = low + 1, m = hi;
+		T p = array[low];
+		int m = low + 1, n = hi;
 
 		while (true) {
-			while (n <= hi && array[n] < val) {
-				n++;
+			while (m <= hi && array[m] < p) {
+				m++;
 			}
 
-			while (m >= low + 1 && array[m] > val) {
-				m--;
+			while (n >= low + 1 && array[n] > p) {
+				n--;
 			}
 
-			if (n > m) {
+			if (m > n) {
 				break;
 			}
 
 			std::swap(array[m], array[n]);
-			n++;
-			m--;
+			m++;
+			n--;
 		}
 
-		std::swap(array[low], array[m]);
-		return m;
+		std::swap(array[low], array[n]);
+		return n;
 	}
 
 
@@ -45,17 +45,18 @@ namespace Practice {
 
 		if (low >= hi) {
 			return;
-
 		}
+
 		int pivot = partition(array, low, hi);
 		quickSortHelper(array, low, pivot);
 		quickSortHelper(array, pivot + 1, hi);
-		
+
 	}
 
 	template<typename T>
 	void quickSort(T array[], int n) {
 		// TODO: Quicksort function
+		
 		quickSortHelper(array, 0, n - 1);
 
 	}

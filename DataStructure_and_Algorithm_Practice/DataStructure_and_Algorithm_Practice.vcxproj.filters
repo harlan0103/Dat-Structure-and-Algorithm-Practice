@@ -24,6 +24,9 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SelectionSort_Pra.h">
+      <Filter>头文件\Practice</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MergeSort_Sol.h">
@@ -48,6 +51,21 @@
       <Filter>头文件\Solution</Filter>
     </ClInclude>
     <ClInclude Include="MaxHeap_Pra.h">
+      <Filter>头文件\Practice</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleSort_Sol.h">
+      <Filter>头文件\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleSort_Pra.h">
+      <Filter>头文件\Practice</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionSort_Sol.h">
+      <Filter>头文件\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertionSort_Sol.h">
+      <Filter>头文件\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertionSort_Pra.h">
       <Filter>头文件\Practice</Filter>
     </ClInclude>
   </ItemGroup>
